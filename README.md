@@ -12,3 +12,7 @@ Let stupid software f*ckoff.
 chmod +x ./stupidSoftware.list
 ./stupidSoftware.list
 ```
+
+## TODO
+
+[ ] TODO: F*ckup package installer ads.
