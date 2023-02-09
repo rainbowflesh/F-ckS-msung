@@ -1,4 +1,4 @@
-# F*ckS*msung
+# F\*ckS\*msung
 
 Let stupid software f*ckoff.
 
