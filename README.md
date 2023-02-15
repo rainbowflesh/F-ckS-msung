@@ -9,8 +9,8 @@ Let stupid software f*ckoff.
 3. Run script:
 
 ```shell
-chmod +x ./stupidSoftware.list
-./stupidSoftware.list
+chmod +x ./stupidSoftware.list.sh
+./stupidSoftware.list.sh
 ```
 
 ## TODO
