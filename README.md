@@ -1,6 +1,6 @@
 # F\*ckS\*msung
 
-Let stupid software f*ckoff.
+Let stupid software f\*ckoff.
 
 ## Usage
 
@@ -13,6 +13,10 @@ chmod +x ./stupidSoftware.list.sh
 ./stupidSoftware.list.sh
 ```
 
+## A recommend
+
+https://gitlab.com/W1nst0n/universal-android-debloater
+
 ## TODO
 
-[ ] TODO: F*ckup package installer ads.
+[ ] TODO: F\*ckup package installer ads.
