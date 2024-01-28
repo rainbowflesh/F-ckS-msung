@@ -1,5 +1,9 @@
 #!/bin/sh
-adb shell pm uninstall --user 0 com.samsung.android.carlink                                 # CarLinkApp https://galaxystore.samsung.com/detail/com.samsung.android.carlink
+
+echo "remove carlink"
+adb shell pm uninstall --user 0 com.samsung.android.carlink # CarLinkApp https://galaxystore.samsung.com/detail/com.samsung.android.carlink
+
+echo "remove game GameOptimizingService"
 adb shell pm uninstall --user 0 com.samsung.android.game.gos                                # GameOptimizingService https://galaxystore.samsung.com/detail/com.samsung.android.game.gos
 adb shell pm uninstall --user 0 com.samsung.android.vtcamerasettings                        # Video call effects https://galaxystore.samsung.com/detail/com.samsung.android.vtcamerasettings
 adb shell pm uninstall --user 0 com.samsung.android.video                                   # Samsung Video Player https://galaxystore.samsung.com/detail/com.samsung.android.video
@@ -36,7 +40,6 @@ adb shell pm uninstall --user 0 com.samsung.android.easysetup                   
 adb shell pm uninstall --user 0 com.google.android.adservices.api                           # https://galaxystore.samsung.com/detail/com.google.android.adservices.api
 adb shell pm uninstall --user 0 com.samsung.android.mdx.kit                                 # https://galaxystore.samsung.com/detail/com.samsung.android.mdx.kit
 adb shell pm uninstall --user 0 com.samsung.android.mdx                                     # https://galaxystore.samsung.com/detail/com.samsung.android.mdx
-adb shell pm uninstall --user 0 com.samsung.android.mdx.quickboard                          # https://galaxystore.samsung.com/detail/com.samsung.android.mdx.quickboard
 adb shell pm uninstall --user 0 com.microsoft.appmanager                                    # https://galaxystore.samsung.com/detail/com.microsoft.appmanager
 adb shell pm uninstall --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload # https://galaxystore.samsung.com/detail/com.samsung.android.app.camera.sticker.facearavatar.preload
 adb shell pm uninstall --user 0 com.samsung.hongbaoassistant                                # https://galaxystore.samsung.com/detail/com.samsung.hongbaoassistant
